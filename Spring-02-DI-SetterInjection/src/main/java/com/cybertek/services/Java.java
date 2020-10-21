@@ -2,17 +2,25 @@ package com.cybertek.services;
 
 import com.cybertek.inerfaces.Course;
 import com.cybertek.inerfaces.ExtraSessions;
+import lombok.Data;
 
+@Data
 public class Java implements Course {
 
-    ExtraSessions extraSessions;
+    private OfficeHours officeHours;
 
-    public Java(ExtraSessions extraSessions) {
-        this.extraSessions = extraSessions;
+/*
+    public OfficeHours getOfficeHours() {
+        return officeHours;
     }
 
-    @Override
+    public void setOfficeHours(OfficeHours officeHours) {
+        this.officeHours = officeHours;
+    }
+*/
+
     public void getTeachingHours() {
-        System.out.println( "Weekly Teaching Hours:" + ( 20 + extraSessions.getHours()));
+
+        System.out.println( "Weekly Teaching Hours:" + ( 20 + officeHours.getHours()));
     }
 }
