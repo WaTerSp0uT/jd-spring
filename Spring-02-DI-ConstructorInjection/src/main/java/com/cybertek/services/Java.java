@@ -11,6 +11,8 @@ public class Java implements Course {
         this.extraSessions = extraSessions;
     }
 
+
+
     @Override
     public void getTeachingHours() {
         System.out.println( "Weekly Teaching Hours:" + ( 20 + extraSessions.getHours()));
