@@ -8,8 +8,14 @@ import org.springframework.stereotype.Component;
 public class Java implements Course {
     private OfficeHours officeHours;
 
+    //Constructor Injection
+    //@Autowired
+    //public Java(OfficeHours officeHours) {
+    //    this.officeHours = officeHours;
+    //}
+
     @Autowired
-    public Java(OfficeHours officeHours) {
+    public void setOfficeHours(OfficeHours officeHours) {
         this.officeHours = officeHours;
     }
 
