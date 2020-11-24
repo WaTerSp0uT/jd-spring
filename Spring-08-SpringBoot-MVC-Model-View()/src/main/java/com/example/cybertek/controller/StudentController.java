@@ -1,5 +1,6 @@
 package com.example.cybertek.controller;
 
+import com.example.cybertek.model.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -35,6 +36,10 @@ public class StudentController {
 
         LocalDate birthday = LocalDate.now().minusYears(27);
         model.addAttribute("birthday",birthday);
+
+        //Using pojo as model to view
+        Student student = new Student(1,"Mike","Smith");
+        model.addAttribute("student",student);
 
         return "student/welcome";
     }
