@@ -29,5 +29,7 @@
         <li th:each="number : ${numbers}" th:text="${number}"></li>
     </ul>
 
+    <!--Fragment-->
+    <div th:replace="fragments/footer :: yaro"></div>
 </body>
 </html>
