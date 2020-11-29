@@ -17,7 +17,7 @@
             Welcome to Employee Registration Page
         </h2>
         <div class="card-body">
-            <form th:object="${employee}">
+            <form th:action="@{/employee/list}" method="post" th:object="${employee}">
                 <div class="form-row">
                     <div class="form-group col">
                         <label for="inputFirstName4">First Name</label>
@@ -59,7 +59,7 @@
                     <div class="form-group col-md-4">
                         <label for="inputState">State</label>
                         <select id="inputState" th:field="*{state}" class="form-control">
-                            <option th:each="theState : ${stateList}" th:value="theState" th:text="theState">...</option>
+                            <option th:each="theState : ${stateList}" th:value="${theState}" th:text="${theState}">...</option>
                         </select>
                     </div>
                     <div class="form-group col-md-2">
