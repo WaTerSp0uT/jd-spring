@@ -16,10 +16,10 @@ import java.util.Random;
 public class StudentController {
 
     @GetMapping("/welcome")
-    public String homePage(Model model){
+    public String homePage(Model model) {
 
-        model.addAttribute("name", "Cybertek" );
-        model.addAttribute("course", "MVC" );
+        model.addAttribute("name", "Cybertek");
+        model.addAttribute("course", "MVC");
         String subject = "Collections";
 
         model.addAttribute("subject", subject);
@@ -35,17 +35,17 @@ public class StudentController {
         model.addAttribute("numbers", numbers);
 
         LocalDate birthday = LocalDate.now().minusYears(27);
-        model.addAttribute("birthday",birthday);
+        model.addAttribute("birthday", birthday);
 
         //Using pojo as model to view
-        Student student = new Student(1,"Mike","Smith");
-        model.addAttribute("student",student);
+        Student student = new Student(1, "Mike", "Smith");
+        model.addAttribute("student", student);
 
         return "student/welcome";
     }
 
     @GetMapping("/register")
-    public String registerPage(Model model){
+    public String registerPage(Model model) {
 
         return "student/register";
     }

@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CybertekmvcApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CybertekmvcApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CybertekmvcApplication.class, args);
+    }
 
 }
