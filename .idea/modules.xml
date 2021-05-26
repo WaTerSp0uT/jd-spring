@@ -17,8 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-07-SpringBoot-Demo/Spring-07-SpringBoot-Demo.iml" filepath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/Spring-07-SpringBoot-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-07-SpringBoot-loc-DI-Lab/Spring-07-SpringBoot-loc-DI-Lab.iml" filepath="$PROJECT_DIR$/Spring-07-SpringBoot-loc-DI-Lab/Spring-07-SpringBoot-loc-DI-Lab.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/Spring-08-SpringBoot-MVC-Form.iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/Spring-08-SpringBoot-MVC-Form.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View()/Spring-08-SpringBoot-MVC-Model-View().iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View()/Spring-08-SpringBoot-MVC-Model-View().iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View()/Spring-09-SQL-Review.iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View()/Spring-09-SQL-Review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" />
       <module fileurl="file://$APPLICATION_CONFIG_DIR$/consoles/db/Spring-09-SQL-review.iml" filepath="$APPLICATION_CONFIG_DIR$/consoles/db/Spring-09-SQL-review.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-01-SpringContainer/SpringContainer.iml" filepath="$PROJECT_DIR$/Spring-01-SpringContainer/SpringContainer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-00-LooselyCoupled/spring-00-LooselyCoupled.iml" filepath="$PROJECT_DIR$/spring-00-LooselyCoupled/spring-00-LooselyCoupled.iml" />

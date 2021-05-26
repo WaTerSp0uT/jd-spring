@@ -16,8 +16,8 @@
         <option value="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDestroy/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-07-SpringBoot-loc-DI-Lab/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View()/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-TableCreation/pom.xml" />
       </list>
     </option>
   </component>
