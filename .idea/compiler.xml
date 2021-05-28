@@ -18,6 +18,7 @@
         <module name="SpringContainer" />
         <module name="Spring-03-BeanScope-Singleton-Prototype" />
         <module name="Spring-05-JavaAnnotations-Component" />
+        <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-05-Value" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-09-SQL-Review" />
@@ -40,6 +41,7 @@
       <module name="Spring-07-SpringBoot-loc-DI-Lab" target="1.8" />
       <module name="Spring-08-SpringBoot-MVC-Form" target="1.8" />
       <module name="Spring-08-SpringBoot-MVC-Model-View()" target="1.8" />
+      <module name="Spring-09-ORM-Mapping-OneToOne" target="1.8" />
       <module name="Spring-09-ORM-TableCreation" target="1.8" />
       <module name="Spring-09-SQL-Review" target="1.8" />
       <module name="SpringContainer" target="1.8" />
@@ -51,6 +53,7 @@
       <module name="Spring-07-SpringBoot-loc-DI-Lab" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Form" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Model-View()" options="-parameters" />
+      <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
       <module name="Spring-09-SQL-Review" options="-parameters" />
     </option>
