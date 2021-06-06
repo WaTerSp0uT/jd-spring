@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/Spring-07-SpringBoot-loc-DI-Lab/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-ManyToOne/pom.xml" />
       </list>
     </option>
   </component>
