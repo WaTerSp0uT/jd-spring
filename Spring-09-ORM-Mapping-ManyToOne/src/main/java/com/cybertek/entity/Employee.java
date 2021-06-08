@@ -9,11 +9,11 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name="employees")
+@Table(name = "employees")
 @Getter
 @Setter
 @NoArgsConstructor
-public class Employee extends BaseEntity{
+public class Employee extends BaseEntity {
 
     private String firstName;
     private String lastName;
@@ -27,13 +27,13 @@ public class Employee extends BaseEntity{
 
     private int salary;
 
-    @ManyToOne(cascade = {CascadeType.DETACH, CascadeType.MERGE,CascadeType.PERSIST}, fetch = FetchType.LAZY)
+    @ManyToOne(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST}, fetch = FetchType.LAZY)
     @JoinColumn(name = "department_id")
     private Department department;
 
 
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name="region_id")
+    @JoinColumn(name = "region_id")
     private Region region;
 
     public Employee(String firstName, String lastName, String email, LocalDate hireDate, Gender gender, int salary) {
@@ -44,11 +44,6 @@ public class Employee extends BaseEntity{
         this.gender = gender;
         this.salary = salary;
     }
-
-
-
-
-
 
 
 }

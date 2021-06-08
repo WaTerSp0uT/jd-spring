@@ -9,15 +9,14 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="departments")
+@Table(name = "departments")
 @Getter
 @Setter
 @NoArgsConstructor
-public class Department extends BaseEntity{
+public class Department extends BaseEntity {
 
     private String department;
     private String division;
-
 
 
     public Department(String department, String division) {

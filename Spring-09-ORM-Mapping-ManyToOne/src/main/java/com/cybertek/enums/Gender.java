@@ -1,5 +1,5 @@
 package com.cybertek.enums;
 
 public enum Gender {
-    M,F
+    M, F
 }
